@@ -1,1 +1,1 @@
-# industry_similarity
+# 基于标准化主营产品的行业分类及其应用
