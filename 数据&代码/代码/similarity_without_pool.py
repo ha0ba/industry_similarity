@@ -86,6 +86,7 @@ def make_mat(code1, code2):
     :param code2: 产品列表2, list
     :return: 不同产品之间的相似度矩阵
     0.7表示2级相似， 0.3表示1级相似
+    可以按照自己需求修改参数
     """
     num1 = len(code1)
     num2 = len(code2)
@@ -94,7 +95,12 @@ def make_mat(code1, code2):
     for i in range(num1):
         for j in range(num2):
             if code1[i] == code2[j]:
-                mat[i][j] = 1
+                if code1[i][-3:] == code2[j][-3:]:
+                    mat[i][j] = 0.3
+                elif code1[i][-2:] == code2[j][-2:]:
+                    mat[i][j] = 0.7
+                else:
+                    mat[i][j] = 1
             elif code1[i][:3] == code2[j][:3]:
                 mat[i][j] = 0.7
             elif code1[i][:2] == code2[j][:2]:
