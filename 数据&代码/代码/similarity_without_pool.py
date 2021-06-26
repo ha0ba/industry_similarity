@@ -145,8 +145,8 @@ if __name__ == '__main__':
     del file_list
 
     with open(result_path, 'a+', encoding='utf-8') as f:
-        for p in range(0, 50):   # len(firm_list)
-            for q in range(p + 1, 50):
+        for p in range(0, len(firm_list)):   # len(firm_list)
+            for q in range(p + 1, len(firm_list)):
                 tmp_result = compute_firm_similarity(firm_dic[firm_list[p]], firm_dic[firm_list[q]], [firm_list[p], firm_list[q]])
                 f.write(','.join(tmp_result) + '\n')
 
