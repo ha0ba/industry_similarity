@@ -5,7 +5,9 @@
 1. 产品分类词典
 2. 产品分类编码与中信证券行业分类（2020）对应目录 <br>
 3. 2010年及2017年产品分类结果及对应收入占比 <br>
-4. 2010年~2017年的行业相似度（基于产品相似度参数0.3, 0.7）<br> https://www.dropbox.com/sh/5e6kife46huzmul/AABtX25xILdlHQfswsaJ7Rl3a?dl=0 ; 
+4. 2010年~2017年的行业相似度（基于产品相似度参数0.3, 0.7）<br>dropbox link: https://www.dropbox.com/sh/5e6kife46huzmul/AABtX25xILdlHQfswsaJ7Rl3a?dl=0 ;<br>百度网盘链接：https://pan.baidu.com/s/1JqOkXrf8Niuyq9V4rMx08w 
+提取码：fgnb 
+
 
 代码文件包括：
 1. 行业相似度计算
@@ -15,7 +17,7 @@
 <br>
 <br>
 
-## 代码文件已公布，数据文件整理后公布
+## 计算代码、产品分类词典、中信转换目录、2010~2017年行业相似度数据已公布，2010年及2017年产品分类数据文件整理后公布
 <br>
 
 ## 有疑问请联系 shduzijia@sjtu.edu.cn
